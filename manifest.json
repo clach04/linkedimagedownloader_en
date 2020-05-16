@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "LinkedImageDownloader",
+  "version": "0.03beta",
+ 
+  "description": "表示されている画像やリンク先の画像を一括保存します。",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "options_ui": {
+	"page": "options.html"
+  },
+  "background": {
+    "scripts": ["background-script.js"]
+  },
+  "permissions": ["menus","downloads","activeTab","tabs"]
+
+}
