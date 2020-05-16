@@ -1,6 +1,6 @@
-# linkedimagedownloader_en
+# Linked Image Downloader English and Japanese
 
-English translation of linkedimagedownloader by 音水 (Sound Water) for FireFox.
+English translation of LinkedImageDownloader by 音水 (Sound Water) for FireFox.
 
 For original see:
 
