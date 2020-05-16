@@ -2,6 +2,8 @@
 
 English translation of LinkedImageDownloader by 音水 (Sound Water) for FireFox.
 
+Download/install from https://github.com/clach04/linkedimagedownloader_en/releases/latest
+
 For original see:
 
   * https://addons.mozilla.org/en-US/firefox/addon/linkedimagedownloader
