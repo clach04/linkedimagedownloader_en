@@ -33,6 +33,15 @@ Use `chrome.extension.getBackgroundPage().console.log()` and then click on "Insp
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
 
+
+
+    npm install  web-ext
+    web-ext lint
+    web-ext build
+    web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET
+    web-ext sign --api-key=%AMO_JWT_ISSUER% --api-secret=%AMO_JWT_SECRET%
+
+
 ### Porting
 
   * https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/
