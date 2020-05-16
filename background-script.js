@@ -11,6 +11,11 @@ const str_downloadLink_jp = "リンク先画像一括ダウンロード";
 var str_downloadDisp = str_downloadDisp_jp;
 var str_downloadLink = str_downloadLink_jp;
 
+if (navigator.language.startsWith('en')){
+  str_downloadDisp = "Display image batch download";  // machine translation of str_downloadDisp_jp
+  str_downloadLink = "Linked image batch download";  // str_downloadLink_jp
+}
+
 browser.menus.create({
   id: "downloadDisp",
   title: str_downloadDisp,
