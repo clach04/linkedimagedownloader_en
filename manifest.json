@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "LinkedImageDownloader",
-  "version": "0.03beta_enjp",
+  "version": "0.4",
  
   "description": "Saves the displayed images and linked images all at once. / 表示されている画像やリンク先の画像を一括保存します。",
 
