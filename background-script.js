@@ -4,14 +4,21 @@
 function onCreated(){
 	console.log("created");
 }
+
+// dumb hard coded strings, does not make use of l10n resources
+const str_downloadDisp_jp = "表示画像一括ダウンロード";
+const str_downloadLink_jp = "リンク先画像一括ダウンロード";
+var str_downloadDisp = str_downloadDisp_jp;
+var str_downloadLink = str_downloadLink_jp;
+
 browser.menus.create({
   id: "downloadDisp",
-  title: "表示画像一括ダウンロード",
+  title: str_downloadDisp,
   contexts: ["all"]
 }, onCreated);
 browser.menus.create({
   id: "downloadLink",
-  title: "リンク先画像一括ダウンロード",
+  title: str_downloadLink,
   contexts: ["all"]
 }, onCreated);
 browser.menus.onClicked.addListener((info, tab) => {
