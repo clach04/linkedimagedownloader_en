@@ -7,7 +7,9 @@ Download/install from https://github.com/clach04/linkedimagedownloader_en/releas
 For original see:
 
   * https://addons.mozilla.org/en-US/firefox/addon/linkedimagedownloader
+      * Unknown license https://addons.mozilla.org/en-US/firefox/addon/linkedimagedownloader/license/
   * https://otomizu.work/2019/01/02/firefox-quantum-linked-image-downloader/
+    * https://otomizu.work/2019/06/05/google-chrome-linked-image-downloader/
 
 
 ## Dev notes
@@ -35,14 +37,13 @@ Use `chrome.extension.getBackgroundPage().console.log()` and then click on "Insp
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension
 
-
-
     npm install  web-ext
     web-ext lint
     web-ext build
     web-ext sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET
     web-ext sign --api-key=%AMO_JWT_ISSUER% --api-secret=%AMO_JWT_SECRET%
 
+Uploading an **unlisted** extension will allow download of xpi for selt-hosted distribution but can never be made public. Mozilla requires a new version to be uploaded and made public at upload time (i.e. version bump required).
 
 ### Porting
 
